@@ -10,6 +10,6 @@ export default new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: SliderView },
-    { path: '/result', component: ResultView }
+    { path: '/result', component: ResultView, name: 'result', props: true }
   ]
 });

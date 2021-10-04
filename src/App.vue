@@ -14,6 +14,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
+  margin: 0;
+  background-color: #39b8ff;
   font-family: 'Montserrat';
   text-align: center;
 }
